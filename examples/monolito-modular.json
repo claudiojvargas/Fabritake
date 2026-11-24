@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "project": {
+    "title": "Monolito Modular",
+    "description": "Projeto fictício sobre uma equipe de hospital que organiza a comunicação dos módulos de seu sistema.",
+    "language": "pt-BR",
+    "duration": 24,
+    "ratio": "16:9",
+    "provider": "simulated",
+    "settings": { "manual_review": false },
+    "references": []
+  },
+  "scenes": [
+    {
+      "order": 1,
+      "title": "Apresentação",
+      "prompt": "Plano geral de uma sala de operações de um hospital fictício, iluminada por tons violeta. Uma analista apresenta um diagrama de software com módulos separados. Câmera se aproxima lentamente e termina no diagrama central.",
+      "duration": 8,
+      "continuity": "previous_final_frame"
+    },
+    {
+      "order": 2,
+      "title": "Comunicação",
+      "prompt": "Comece com o diagrama do plano anterior. A analista indica a comunicação entre os módulos e os fluxos acendem em azul. Conserve a posição dos elementos e a iluminação da sala. Finalize em close no painel de alertas.",
+      "duration": 8,
+      "continuity": "previous_final_frame"
+    },
+    {
+      "order": 3,
+      "title": "Apagão",
+      "prompt": "Abra no painel de alertas do plano anterior. A iluminação diminui durante um apagão simulado. A luz de emergência violeta revela que os outros módulos continuam ativos. Termine em um plano estável da sala.",
+      "duration": 8,
+      "continuity": "previous_final_frame"
+    }
+  ]
+}
